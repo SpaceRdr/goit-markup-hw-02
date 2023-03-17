@@ -29,6 +29,17 @@ body {
    text-decoration: none;
 }
 
+/* Site Buttom */
+.base-buttom {
+   background-color: var(--radio-buttom-text-color);
+   color: var(--text-color-white);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   align-items: center;
+   letter-spacing: 0.04em;
+}
+
 /* logo  */
 .logo {
    color: var(--title-text-color-basic);
@@ -61,6 +72,20 @@ body {
 .adres-main-menu-item:hover,
 .adres-main-menu-item:focus{
    color: var(--radio-buttom-text-color);
+}
+
+/* Section Main Slogan H1  */
+.hero {
+   background-color: var(--title-text-color-basic);
+}
+
+.hero-title {
+   color: var(--text-color-white);
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
 }
 
 /* Main Content  */
