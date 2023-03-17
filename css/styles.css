@@ -1,27 +1,78 @@
 :root{
-
+   /* SLATE */ 
    --body-text-color: #434455;
-  
+   /* NAVY BLUE */
    --title-text-color-basic: #2E2F42;
     /* & Logo text color, Item in Main menu, 
     Heades 2/3 */
-   --text-color-white: #fff;
 
+   --text-color-white: #fff;
+   /* IRIS */
    --radio-buttom-text-color: #4D5AE5;
-   /* & logo Dark text, Buttom BackGrnd */
+   /* & logo Color text, Buttom BackGrnd */
 
 }
 
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
+body {
+   font-family: Roboto, sans-serif;
+   background-color: var(--text-color-white);
+   color: var(--body-text-color);
+}
+/* Reset Param  */
+.list-rst {
+   list-style: none;
+}
 
-/* Header & Main menu  */
+.link-rst {
+   text-decoration: none;
+}
 
-.main-menu {
+/* logo  */
+.logo {
+   color: var(--title-text-color-basic);
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height:  1.33;
+}
+
+/* Menu  */
+.main-menu {}
+
+.main-menu-item{
    color: var(--title-text-color-basic);
 }
 
-.main-menu-item {
+.main-menu-item:hover,
+.main-menu-item:focus
+ {
+   color: var(--radio-buttom-text-color);
+}
+
+.adrs-main-menu {}
+
+.adres-main-menu-item {
+   color: var(--body-text-color);   
+}
+
+.adres-main-menu-item:hover,
+.adres-main-menu-item:focus{
+   color: var(--radio-buttom-text-color);
+}
+
+/* Main Content  */
+.section {
+   /* color: var(--body-text-color); */
+
+}
+
+.section-title {
    color: var(--title-text-color-basic);
 }
 
+.section-parag {
+
+}
