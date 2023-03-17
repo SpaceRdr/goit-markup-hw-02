@@ -1,0 +1,27 @@
+:root{
+
+   --body-text-color: #434455;
+  
+   --title-text-color-basic: #2E2F42;
+    /* & Logo text color, Item in Main menu, 
+    Heades 2/3 */
+   --text-color-white: #fff;
+
+   --radio-buttom-text-color: #4D5AE5;
+   /* & logo Dark text, Buttom BackGrnd */
+
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* Header & Main menu  */
+
+.main-menu {
+   color: var(--title-text-color-basic);
+}
+
+.main-menu-item {
+   color: var(--title-text-color-basic);
+}
+
