@@ -25,8 +25,11 @@ body {
    font-family: Roboto, sans-serif;
    background-color: var(--color-white);
    color: var(--body-text-color);
+   font-weight: 400;
    font-size: 16px;
-   
+   line-height: 1.5;
+   /* identical to box height, or 150% */
+   /* letter-spacing: 0.02em; */
 }
 
 /* Reset Param  */
@@ -40,6 +43,7 @@ body {
 
 /* Site Buttom */
 .base-buttom {
+   font-family: inherit;
    background-color: var(--radio-buttom-text-color);
    color: var(--color-white);
    border-color: transparent;
@@ -127,16 +131,34 @@ body {
 
 }
 
+.section.bkg-cloud {
+   background-color: var(--color-cloud);
+}
+
+.section .card {
+   background-color: var(--color-white);
+}
+
 .section-title {
    color: var(--title-text-color-basic);
 }
 
-.section-title-sz-two {
+.section-title-sz-one {
 
 }
 
+.section-title-sz-two {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   /* identical to box height, or 111% */
+}
+
 .section-title-sz-three {
-   
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   /* identical to box height, or 120% */
 }
 
 .section-parag {
