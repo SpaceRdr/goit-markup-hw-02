@@ -17,6 +17,8 @@
    /* footer text color */
    --color-cornf-lower: #E7E9FC;
 
+   --color-target: #404bbf;
+
 }
 
 /* font-family: 'Raleway', sans-serif;
@@ -96,19 +98,26 @@ body {
 }
 
 /* Menu  */
-.main-menu {}
+.main-menu {
+   list-style: none;
+}
 
 .main-menu-item {
    color: var(--title-text-color-basic);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   /* identical to box height, or 150% */
+   letter-spacing: 0.02em;
 }
 
 .main-menu-item:hover,
 .main-menu-item:focus {
-   color: var(--radio-buttom-text-color);
+   color: var(--color-target);
 }
 
 .main-menu .main-menu-item.now {
-   color: var(--radio-buttom-text-color);
+   color: var(--color-target);
 }
 
 .adres-main-menu {}
