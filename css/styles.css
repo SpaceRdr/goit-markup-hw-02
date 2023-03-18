@@ -1,11 +1,11 @@
-:root{
-   /* SLATE */ 
+:root {
+   /* SLATE */
    --body-text-color: #434455;
    /* NAVY BLUE */
    /* & Logo text color, Item in Main menu, 
     Heades 2/3 */
    --title-text-color-basic: #2E2F42;
-    /* IRIS */
+   /* IRIS */
    /* & logo Color text, Buttom BackGrnd */
    --radio-buttom-text-color: #4D5AE5;
    /* WHITE */
@@ -29,7 +29,7 @@ body {
    font-size: 16px;
    line-height: 1.5;
    /* identical to box height, or 150% */
-   /* letter-spacing: 0.02em; */
+   letter-spacing: 0.02em;
 }
 
 /* Reset Param  */
@@ -51,7 +51,7 @@ body {
    font-size: 16px;
    line-height: 1.5;
    /* align-items: center;*/
-   /*letter-spacing: 0.04em; */
+   letter-spacing: 0.04em;
 }
 
 .base-buttom.activ {
@@ -72,7 +72,14 @@ body {
    /* font-style: normal; */
    font-weight: 800;
    font-size: 18px;
-   line-height:  1.33;
+   line-height: 1.33;
+   letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+   background-color: var(--title-text-color-basic);
+   color: var(--color-cornf-lower);
 }
 
 .logo.footer {
@@ -87,27 +94,27 @@ body {
 /* Menu  */
 .main-menu {}
 
-.main-menu-item{
+.main-menu-item {
    color: var(--title-text-color-basic);
 }
 
 .main-menu-item:hover,
-.main-menu-item:focus
- {
+.main-menu-item:focus {
    color: var(--radio-buttom-text-color);
 }
 
 .main-menu .main-menu-item.now {
    color: var(--radio-buttom-text-color);
 }
-.adrs-main-menu {}
+
+.adres-main-menu {}
 
 .adres-main-menu-item {
-   color: var(--body-text-color);   
+   color: var(--body-text-color);
 }
 
 .adres-main-menu-item:hover,
-.adres-main-menu-item:focus{
+.adres-main-menu-item:focus {
    color: var(--radio-buttom-text-color);
 }
 
@@ -121,8 +128,8 @@ body {
    font-weight: 700;
    font-size: 56px;
    line-height: 1.07;
-   /* text-align: center;
-   letter-spacing: 0.02em; */
+   /* text-align: center; */
+   letter-spacing: 0.02em;
 }
 
 /* Main Content  */
@@ -143,15 +150,15 @@ body {
    color: var(--title-text-color-basic);
 }
 
-.section-title-sz-one {
-
-}
+.section-title-sz-one {}
 
 .section-title-sz-two {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
    /* identical to box height, or 111% */
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
 }
 
 .section-title-sz-three {
@@ -159,9 +166,11 @@ body {
    font-size: 20px;
    line-height: 1.2;
    /* identical to box height, or 120% */
+   letter-spacing: 0.02em;
 }
 
 .section-parag {
-   /* line-height: 1.5px;
+   /* inherit from body
+   line-height: 1.5px;
    letter-spacing: 0.02em; */
 }
