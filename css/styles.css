@@ -42,7 +42,7 @@ body {
 }
 
 /* Site Buttom */
-.base-buttom {
+.base-button {
    font-family: inherit;
    background-color: var(--radio-buttom-text-color);
    color: var(--color-white);
@@ -55,12 +55,12 @@ body {
    cursor: pointer;
 }
 
-.base-buttom.activ {
+.base-button.activ {
    background-color: var(--radio-buttom-text-color);
    color: var(--color-white);
 }
 
-.base-buttom.clam {
+.base-button.clam {
    background-color: var(--color-cloud);
    color: var(--radio-buttom-text-color);
 }
