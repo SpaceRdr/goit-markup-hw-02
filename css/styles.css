@@ -104,11 +104,13 @@ body {
 
 .main-menu-item {
    color: var(--title-text-color-basic);
+   font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    /* identical to box height, or 150% */
    letter-spacing: 0.02em;
+   text-decoration: none;
 }
 
 .main-menu-item:hover,
@@ -120,15 +122,24 @@ body {
    color: var(--color-target);
 }
 
-.adres-main-menu {}
+.adres-main-menu {
+   list-style: none;
+}
 
 .adres-main-menu-item {
    color: var(--body-text-color);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   /* identical to box height, or 150% */
+   letter-spacing: 0.02em;
+   text-decoration: none;
 }
 
 .adres-main-menu-item:hover,
 .adres-main-menu-item:focus {
-   color: var(--radio-buttom-text-color);
+   color: var(--color-target);
 }
 
 /* Section Main Slogan H1  */
