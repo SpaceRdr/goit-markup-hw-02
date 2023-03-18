@@ -52,6 +52,7 @@ body {
    line-height: 1.5;
    /* align-items: center;*/
    letter-spacing: 0.04em;
+   cursor: pointer;
 }
 
 .base-buttom.activ {
