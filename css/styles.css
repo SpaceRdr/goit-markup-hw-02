@@ -69,7 +69,7 @@ body {
 
 
 /* logo  */
-.logo-link {
+.link {
    color: var(--radio-buttom-text-color);
    font-family: 'Raleway', sans-serif;
    /* font-style: normal; */
@@ -81,13 +81,13 @@ body {
    text-decoration: none;
 }
 
-.logo-link:hover,
-.logo-link:focus {
+.link:hover,
+.link:focus {
    background-color: var(--title-text-color-basic);
    color: var(--color-cornf-lower);
 }
 
-.logo-link.footer {
+.link.footer {
    color: var(--color-cloud);
    line-height: 1.17;
 }
@@ -98,11 +98,11 @@ body {
 }
 
 /* Menu  */
-.main-menu-link {
+.list {
    list-style: none;
 }
 
-.main-menu-item-link {
+.list {
    color: var(--title-text-color-basic);
    font-style: normal;
    font-weight: 500;
@@ -113,18 +113,18 @@ body {
    text-decoration: none;
 }
 
-.main-menu-item-link:hover,
-.main-menu-item-link:focus {
+.list:hover,
+.list:focus {
    color: var(--color-target);
 }
 
-.main-menu-item-link.now {
+.list.now {
    color: var(--color-target);
 }
 
 .adres-main-menu {
    list-style: none;
-   
+
 }
 
 .adres-main-menu-item {
