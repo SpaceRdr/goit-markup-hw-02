@@ -102,7 +102,7 @@ body {
    list-style: none;
 }
 
-.list {
+.list-item {
    color: var(--title-text-color-basic);
    font-style: normal;
    font-weight: 500;
@@ -113,12 +113,12 @@ body {
    text-decoration: none;
 }
 
-.list:hover,
-.list:focus {
+.list-item:hover,
+.list-item:focus {
    color: var(--color-target);
 }
 
-.list.now {
+.list-item.now {
    color: var(--color-target);
 }
 
