@@ -99,11 +99,13 @@ body {
 
 /* Menu  */
 .list {
+   color: var(--title-text-color-basic);
    list-style: none;
+   
 }
 
-.list-item {
-   color: var(--title-text-color-basic);
+.list .link-item {
+   
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -113,13 +115,17 @@ body {
    text-decoration: none;
 }
 
-.list-item:hover,
-.list-item:focus {
+.list .link-item:hover,
+.list .link-item:focus {
    color: var(--color-target);
 }
 
-.list-item.now {
+.list .link-item.now {
    color: var(--color-target);
+}
+
+.adrs-sec {
+   font-style: normal;
 }
 
 .adres-main-menu {
@@ -127,7 +133,7 @@ body {
 
 }
 
-.adres-main-menu-item {
+.adres-main-menu .link {
    color: var(--body-text-color);
    font-style: normal;
    font-weight: 400;
@@ -138,8 +144,8 @@ body {
    text-decoration: none;
 }
 
-.adres-main-menu-item:hover,
-.adres-main-menu-item:focus {
+.adres-main-menu .link:hover,
+.adres-main-menu .link:focus {
    color: var(--color-target);
 }
 
