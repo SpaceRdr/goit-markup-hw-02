@@ -98,11 +98,11 @@ body {
 }
 
 /* Menu  */
-.main-menu {
+.main-menu-link {
    list-style: none;
 }
 
-.main-menu-item {
+.main-menu-item-link {
    color: var(--title-text-color-basic);
    font-style: normal;
    font-weight: 500;
@@ -113,12 +113,12 @@ body {
    text-decoration: none;
 }
 
-.main-menu-item:hover,
-.main-menu-item:focus {
+.main-menu-item-link:hover,
+.main-menu-item-link:focus {
    color: var(--color-target);
 }
 
-.main-menu .main-menu-item.now {
+.main-menu-item-link.now {
    color: var(--color-target);
 }
 
