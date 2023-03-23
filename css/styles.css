@@ -207,6 +207,7 @@ body {
 }
 
 .section-title-sz-three {
+   color: --title-text-color-basic;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -215,7 +216,9 @@ body {
 }
 
 .section-parag {
-   /* inherit from body
-   line-height: 1.5px;
-   letter-spacing: 0.02em; */
+   /* inherit from body */
+   color: var(--body-text-color);
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
 }
