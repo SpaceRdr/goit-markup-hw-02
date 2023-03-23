@@ -209,7 +209,7 @@ body {
 }
 
 .section-title-sz-three {
-   color: --title-text-color-basic;
+   color: var(--title-text-color-basic);
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
