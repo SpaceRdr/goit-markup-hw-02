@@ -57,7 +57,7 @@ body {
    cursor: pointer;
 }
 
-.base-button:hover
+.base-button:hover,
 .base-button:focus {
    background-color: var(--color-target);
 }
