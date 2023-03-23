@@ -99,7 +99,7 @@ body {
 
 /* Menu  */
 .list {
-   color: var(--title-text-color-basic);
+   /* color: var(--title-text-color-basic); */
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -109,9 +109,8 @@ body {
    list-style: none;
 }
 
-/* no use  */
 .list .link-item {
-   color: var(--body-text-color);
+   color: var(--title-text-color-basic);
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -130,16 +129,16 @@ body {
    color: var(--color-target);
 }
 
-.adrs-sec {
+.adrs-menu {
    font-style: normal;
 }
 
+/* No use  */
 .adres-main-menu {
    list-style: none;
-
 }
 
-.adres-main-menu .link {
+.adrs-menu .link-adrs {
    color: var(--body-text-color);
    font-style: normal;
    font-weight: 400;
@@ -150,8 +149,8 @@ body {
    text-decoration: none;
 }
 
-.adres-main-menu .link:hover,
-.adres-main-menu .link:focus {
+.adrs-menu .link-adrs:hover,
+.adrs-menu .link-adrs:focus {
    color: var(--color-target);
 }
 
