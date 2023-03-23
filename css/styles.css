@@ -70,7 +70,7 @@ body {
 
 /* logo  */
 .link {
-   color: var(--title-text-color-basic);
+   color: var(--radio-buttom-text-color);
    font-family: 'Raleway', sans-serif;
    /* font-style: normal; */
    font-weight: 800;
@@ -111,7 +111,7 @@ body {
 
 /* no use  */
 .list .link-item {
-   color: var(--title-text-color-basic);
+   color: var(--body-text-color);
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
