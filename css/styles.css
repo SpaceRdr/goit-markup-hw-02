@@ -57,8 +57,13 @@ body {
    cursor: pointer;
 }
 
+.base-button:hover
+.base-button:focus {
+   background-color: var(--color-target);
+}
+
 .base-button.activ {
-   background-color: var(--radio-buttom-text-color);
+   background-color: var(--color-target);
    color: var(--color-white);
 }
 
@@ -66,6 +71,8 @@ body {
    background-color: var(--color-cloud);
    color: var(--radio-buttom-text-color);
 }
+
+
 
 
 /* logo  */
@@ -137,6 +144,7 @@ body {
 .adres-main-menu {
    list-style: none;
 }
+/* No use  */
 
 .adrs-menu .link-adrs {
    color: var(--body-text-color);
@@ -164,7 +172,7 @@ body {
    font-weight: 700;
    font-size: 56px;
    line-height: 1.07;
-   /* text-align: center; */
+   text-align: center;
    letter-spacing: 0.02em;
 }
 
