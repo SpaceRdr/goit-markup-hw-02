@@ -83,7 +83,7 @@ body {
 
 .link:hover,
 .link:focus {
-   background-color: var(--title-text-color-basic);
+   background-color: var(--color-target);
    color: var(--color-cornf-lower);
 }
 
@@ -100,10 +100,16 @@ body {
 /* Menu  */
 .list {
    color: var(--title-text-color-basic);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   text-decoration: none;
    list-style: none;
-   
 }
 
+/* no use  */
 .list .link-item {
    color: var(--title-text-color-basic);
    font-style: normal;
