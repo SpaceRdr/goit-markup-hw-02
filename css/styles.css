@@ -94,6 +94,10 @@ body {
 
 /* logo  */
 .link {
+   text-decoration: none;
+}
+
+.link-logos {
    color: var(--radio-buttom-text-color);
    font-family: 'Raleway', sans-serif;
    /* font-style: normal; */
@@ -102,7 +106,7 @@ body {
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   text-decoration: none;
+   /* text-decoration: none; */
    list-style: none;
 }
 
